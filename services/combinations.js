@@ -1,7 +1,12 @@
 import { Db, Catalog} from '../clients/index.js'
 import { NotFoundError } from '../err/errors.js'
 
-
+/*
+  - Acessa o Db | MasterData
+  - Verifica a existência do id
+  - Chama o Catalog 
+  - Retorna um array com as infos dos produtos que tiveram melhores combinações 
+*/
 
 export class ServicesCombinations {
 

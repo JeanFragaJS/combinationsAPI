@@ -5,7 +5,7 @@ import { config } from '../api-get-combination-by-id/config.js'
 
 
 /*
-  CLIENT CATALOG IMPLEMENTATION  
+  CLIENT CATALOG IMPLEMENTATION | Acessa a API de catologo vtex
 */
 
  export class Catalog {

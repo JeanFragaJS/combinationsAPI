@@ -4,7 +4,7 @@ import * as HttpUtil from '../utils/request.js'
 
 
 /*
-  CLIENT VTEX ORDER IMPLEMENTATION  
+  CLIENT VTEX ORDER IMPLEMENTATION  | Acessa o pedido por meio do Id
 */
 
 export  class VtexOrder {

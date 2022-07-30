@@ -1,6 +1,9 @@
 import { RequestError, ServerError } from '../err/errors.js'
 import * as HttpUtil from '../utils/request.js'
 
+/*
+  Hook IMPLEMENTATION | SUGESTÃO: PODE SER CHAMADO AO STARTAR A APP 
+*/
 
 const makeHookConfig = (endPoint, endPointKey) => ({
   filter: {

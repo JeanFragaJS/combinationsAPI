@@ -4,7 +4,7 @@ import * as HttpUtil from '../utils/request.js'
 
 
 /*
-  DB IMPLEMENTATION  
+  DB IMPLEMENTATION | Acessa o Vtex MasterData 
 */
 
  export class Db {

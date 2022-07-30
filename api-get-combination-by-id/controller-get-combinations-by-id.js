@@ -1,6 +1,12 @@
 import { MissingParamError } from "../err/errors.js"
 import { ServicesCombinations } from "../services/combinations.js"
 
+/*
+  - Valida o parametro do request
+  - Chamma o CombinationsServices
+  - Retornar para o front o que eles precisarem
+*/
+
 export class ControllerGetCombinationsById {
 
   static async handle ( request, response ) {
@@ -29,5 +35,3 @@ export class ControllerGetCombinationsById {
   }
 
 }
-
-

@@ -1,5 +1,9 @@
 import axios from 'axios';
-import  AxiosError from 'axios'
+import  AxiosError from 'axios' 
+
+/*
+  INSTANCE AXIOS 
+*/
 
 export class Request {
   constructor( request = axios) { this.request = request }
@@ -23,3 +27,4 @@ export class Request {
     return requesError;
   }
 }
+
