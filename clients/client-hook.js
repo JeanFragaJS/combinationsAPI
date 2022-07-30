@@ -1,9 +1,7 @@
-import { RequestError, ServerError } from '../err/errors'
-import * as HttpUtil from '../utils/request'
+import { RequestError, ServerError } from '../err/errors.js'
+import * as HttpUtil from '../utils/request.js'
 
-/*
-  HOOK CONFIG FACTORY
-*/
+
 const makeHookConfig = (endPoint, endPointKey) => ({
   filter: {
     type: "FromWorkflow",
@@ -17,12 +15,7 @@ const makeHookConfig = (endPoint, endPointKey) => ({
   }
 })
 
-/*
-  CLIENT VTEX HOOK IMPLEMENTATION
-  question: exportar como um singleton ?
-*/
-
- class VtexHook {
+ export class VtexHook {
   constructor ( request = new HttpUtil.Request()) {
     this.request = request
     this.appKey // process.env.APP_KEY
